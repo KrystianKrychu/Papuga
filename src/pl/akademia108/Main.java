@@ -6,13 +6,12 @@ public class Main {
         System.out.println("Wprowadź wyraz:");
         Scanner scan = new Scanner(System.in);
         String word = scan.next();
-        System.out.println("Kra, " + word);
+        System.out.println("Kra, Kra " + word + " " + word + " ");
 
-        System.out.println("Wprowadź wyraz:");
-        String word2 = scan.next();
-        System.out.println("Papuga, " + word2);
+        System.out.println("Wprowadź imie:");
+        String Krystian = scan.next();
 
-        System.out.println("Autorem programu jest Krystian");
+        System.out.println("Autorem programu jest " + Krystian);
         scan.close();
     }
 }
