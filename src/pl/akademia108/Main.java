@@ -1,17 +1,14 @@
 package pl.akademia108;
-import java.util.Scanner;
+
+import pl.akademia108.java.VariablesDeclarationInitialization;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Wprowadź wyraz:");
-        Scanner scan = new Scanner(System.in);
-        String word = scan.next();
-        System.out.println("Kra, Kra " + word + " " + word + " ");
+        VariablesDeclarationInitialization variablesExample = new VariablesDeclarationInitialization();
 
-        System.out.println("Wprowadź imie:");
-        String Krystian = scan.next();
+        variablesExample.variablesDeclarationInitializationExample();
 
-        System.out.println("Autorem programu jest " + Krystian);
-        scan.close();
+
     }
 }
